@@ -10,5 +10,10 @@ libraryDependencies ++= Seq(
   javaJdbc,
   javaEbean,
   cache,
-  javaWs
+  javaWs,
+  "org.jsoup" % "jsoup" % "1.8.3"
 )
+
+findbugsSettings
+
+findbugsExcludeFilters := Some(scala.xml.XML.loadFile(baseDirectory.value / "findbugs-exclude-filters.xml"))
