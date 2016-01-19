@@ -86,4 +86,4 @@ system. It needs the following parameters to work:
  - idp: Bus Stop identifier (String)
  - ido: Bus Stop Order (String)
 
-In example: `http://localhost:9000/unauto?idl=41&idp=P001&ido=1.00000`
+es una prueba
