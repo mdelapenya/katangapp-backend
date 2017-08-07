@@ -1,4 +1,5 @@
 import play.PlayJava
+import NativePackagerKeys._
 
 name := """katangapp-backend"""
 
@@ -25,6 +26,10 @@ libraryDependencies ++= Seq(
   "org.reflections" % "reflections" % "0.9.8" notTransitive (),
   "org.webjars" % "swagger-ui" % "2.1.8-M1"
 )
+
+dockerBaseImage := "java:8"
+
+maintainer := "Manuel de la Peña (https://github.com/mdelapenya)"
 
 findbugsSettings
 
