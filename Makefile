@@ -1,0 +1,2 @@
+buildDocker:
+	- sbt docker:publishLocal

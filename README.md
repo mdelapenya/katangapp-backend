@@ -123,3 +123,7 @@ documentation, client SDK generation and discoverability. To visit the
 endpoints documentation, please visit following URL:
 
 `http://localhost:9000/assets/lib/swagger-ui/index.html?/url=http://localhost:9000/api-docs`
+
+## Docker
+
+To build the Docker image, execute `make buildDocker`.
