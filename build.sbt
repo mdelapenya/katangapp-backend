@@ -31,6 +31,8 @@ dockerBaseImage := "java:8"
 
 maintainer := "Manuel de la Peña (https://github.com/mdelapenya)"
 
+dockerExposedPorts in Docker:=Seq(9000, 9443)
+
 findbugsSettings
 
 findbugsExcludeFilters := Some(scala.xml.XML.loadFile(baseDirectory.value / "findbugs-exclude-filters.xml"))
